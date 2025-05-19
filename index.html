@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Dimensiones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Validador de Dimensiones de Pantalla</h1>
+
+        <div class="device-selector">
+            <label for="deviceSelect">Selecciona el tamaño de pantalla:</label>
+            <select id="deviceSelect">
+                <option value="69">Pantalla 6.9" - 1290 x 2796 píxeles</option>
+                <option value="65">Pantalla 6.5" - 1284 x 2778 píxeles</option>
+            </select>
+        </div>
+
+        <div class="upload-section">
+            <label for="imageInput" class="upload-label">
+                <span>Seleccionar imagen</span>
+                <input type="file" id="imageInput" accept="image/*">
+            </label>
+        </div>
+
+        <div id="result" class="result-section hidden">
+            <h2>Resultado:</h2>
+            <div class="result-content">
+                <p id="dimensionsResult"></p>
+                <p id="validationMessage"></p>
+            </div>
+        </div>
+
+        <div id="imagePreview" class="image-preview hidden">
+            <h3>Vista previa:</h3>
+            <img id="previewImg" src="" alt="Vista previa de la imagen">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
