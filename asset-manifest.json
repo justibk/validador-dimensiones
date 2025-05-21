@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/validador-dimensiones/static/css/main.f0692663.css",
+    "main.js": "/validador-dimensiones/static/js/main.6fa91d8d.js",
+    "index.html": "/validador-dimensiones/index.html",
+    "main.f0692663.css.map": "/validador-dimensiones/static/css/main.f0692663.css.map",
+    "main.6fa91d8d.js.map": "/validador-dimensiones/static/js/main.6fa91d8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0692663.css",
+    "static/js/main.6fa91d8d.js"
+  ]
+}
